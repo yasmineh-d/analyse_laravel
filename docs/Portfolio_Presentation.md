@@ -45,3 +45,16 @@ Supervisé par : M. Essarraj Fouad
 ## Diagramme de cas d’utilisation
 
 ![Use Case Diagram](imgs/cas_de_utilisation.png)
+
+---
+
+## Conception:
+**Schema:**
+![Use Case Diagram](imgs/memaid.png)
+
+---
+
+## Conception:
+**Maquette**
+![Use Case Diagram](imgs/)
+
