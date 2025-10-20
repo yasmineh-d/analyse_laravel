@@ -1,0 +1,22 @@
+graph TD
+
+    A[Page d'accueil] --> B[Section À propos]
+    A --> C[Section Projets]
+    A --> D[Section Contact]
+
+    C --> E[Détails du projet / Liens GitHub]
+    D --> F[Formulaire de contact soumis]
+    F --> G[Message de remerciement / Confirmation]
+
+    %% Liens de la barre de navigation
+    subgraph Barre_de_navigation
+        N1(Accueil)
+        N2(À propos)
+        N3(Projets)
+        N4(Contact)
+    end
+
+    N1 --> A
+    N2 --> B
+    N3 --> C
+    N4 --> D
