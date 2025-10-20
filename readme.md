@@ -1,4 +1,4 @@
-# Developer Portfolio Presentation README
+# Mini-Site Personnel
 
 This README provides step-by-step instructions to set up, preview, and export the `portfolio_presentation.md` Markdown file as a presentation using Marp. Marp is a tool that converts Markdown into slideshows, supporting HTML and PDF exports. You can use either the Marp CLI (command-line tool) or the Marp for VS Code extension.
 
