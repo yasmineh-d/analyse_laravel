@@ -1,0 +1,43 @@
+graph TD
+    %% ===== NAVIGATION BAR =====
+    subgraph NAVBAR [Navbar Navigation]
+        A[Home]
+        B[About]
+        D[Projects]
+        E[Contact]
+    end
+
+    %% ===== PAGE CONNECTIONS =====
+    A -.-> A1[Home Page]
+    B -.-> B1[About Section]
+    D -.-> D1[Projects Section]
+    E -.-> E1[Contact Section]
+
+     %% ===== HOME PAGE SECTIONS =====
+    subgraph HOME_PAGE [Home Page Sections]
+        A1 --> H1[About Section: Biography / Experience Overview]
+        A1 --> H2[Skills Preview: Technical & Soft Skills]
+        A1 --> H3[CTA: View Projects]
+        H3 -.-> D1
+    end
+
+    %% ===== ABOUT SECTION =====
+    subgraph ABOUT_PAGE [About Section Details]
+        %% Cette section est visible sur la page d'accueil
+        B1 --> B2[Biography / Experience Details]
+    end
+
+    %% ===== PROJECTS SECTION =====
+    subgraph PROJECTS_PAGE [Projects Section Details]
+        D1 --> D2[Project 1 --> Links to GitHub]
+        D1 --> D3[Project 2 --> Links to GitHub]
+        D1 --> D4[Project 3 --> Links to GitHub]
+    end
+
+    %% ===== CONTACT SECTION (MODIFIED) =====
+    subgraph CONTACT_PAGE [Contact Section Details]
+        E1 --> E2[GitHub Profile Link]
+        E1 --> E3[WhatsApp Number]
+        E1 --> E4[LinkedIn Profile Link]
+        E1 --> E5[Gmail Address]
+    end
