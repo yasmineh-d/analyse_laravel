@@ -30,7 +30,7 @@ Supervisé par : M. Essarraj Fouad
   - Permettre aux visiteurs de me contacter facilement.  
   - Donner une image moderne et professionnelle de mon travail.  
 - **Public cible**: Recruteurs, entreprises tech, clients potentiels, professionnels du web.  
-- **Fonctionnalités**: Page Accueil, À propos, Projets, Contact.  
+- **Fonctionnalités**: Page Accueil, À propos, Projets.
 - **Livrables**: Site fonctionnel avec code source et guide d’utilisation.  
 
 ---
@@ -55,8 +55,13 @@ Supervisé par : M. Essarraj Fouad
 
 ---
 
-## Conception:
 **Maquette**
 
 ![Use Case Diagram](imgs/yasminaaa.png)
+
+---
+
+**Diagramme de classe**
+
+![Use Case Diagram](imgs/diagramme.png)
 
