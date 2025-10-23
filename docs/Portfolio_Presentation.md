@@ -15,12 +15,12 @@ style: |
     max-height: 500px;
     width: auto; 
     object-fit: contain;
-  }
+  } 
 ---
 
-# Mini-Site Personnel
+# Mini-Site Personnel 
 **Yasmine Had-dad**  
-Supervisé par : M. Essarraj Fouad
+Supervisé par : M. Essarraj Fouad **
 
 ---
 
