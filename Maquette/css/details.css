@@ -1,0 +1,259 @@
+/* --- Styles Globaux & Body --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(180deg, #FFF5F0 0%, #FFE8DD 100%);
+    color: #4A2C2A;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+}
+
+/* --- Section Principale des Détails --- */
+.project-details {
+    background: white;
+    border-radius: 30px;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 30px 80px rgba(74, 44, 42, 0.15);
+    margin-bottom: 60px;
+}
+
+.back-button {
+    display: inline-block;
+    background: #FFF5F0;
+    color: #E8A0A0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+
+.back-button:hover {
+    background: #E8A0A0;
+    color: white;
+    transform: translateX(-5px);
+}
+
+.details-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.details-title {
+    font-size: 42px;
+    color: #4A2C2A;
+}
+
+.details-image {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(135deg, #FFB8C8 0%, #E8A0A0 100%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+.details-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6B4F4F;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.details-section {
+    margin-bottom: 35px;
+}
+
+.details-section h3 {
+    font-size: 24px;
+    color: #E8A0A0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FFF5F0;
+    padding-bottom: 10px;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.tech-item {
+    background: #FFF5F0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.tech-item:hover {
+    background: #E8A0A0;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.tech-item-icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.tech-item-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 12px 0 12px 30px;
+    position: relative;
+    color: #6B4F4F;
+    line-height: 1.6;
+}
+
+.features-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 12px;
+    color: #E8A0A0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.github-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #4A2C2A;
+    color: white;
+    padding: 16px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.github-button:hover {
+    background: #E8A0A0;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(232, 160, 160, 0.3);
+}
+
+/* --- Section Résumé (Project Card) --- */
+.projects {
+    padding: 40px 0;
+}
+
+.projects h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #4A2C2A;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(232, 160, 160, 0.15);
+    max-width: 550px;
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(135deg, #FFB8C8 0%, #E8A0A0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.project-content {
+    padding: 30px;
+}
+
+.project-content h3 {
+    font-size: 24px;
+    color: #4A2C2A;
+    margin-bottom: 15px;
+}
+
+.project-content p {
+    color: #6B4F4F;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-tag {
+    background: #FFF5F0;
+    color: #E8A0A0;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+
+/* --- Styles Responsives --- */
+@media (max-width: 768px) {
+    body {
+        padding: 30px 15px;
+    }
+    
+    .project-details {
+        padding: 30px;
+    }
+
+    .details-title {
+        font-size: 32px;
+    }
+    
+    .details-image {
+        height: 250px;
+        font-size: 80px;
+    }
+
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .projects h2 {
+        font-size: 28px;
+    }
+}
+
+/* OK */
