@@ -58,9 +58,8 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="min-h-screen px-20 pb-[100px]">
+  <section id="about" class="min-h-screen px-20 pb-[100px] scroll-mt-[120px]">
     <h2 class="mb-7 text-center text-[48px] text-[#4A2C2A] font-bold">About Me</h2>
-
     <div class="mx-auto max-w-[900px]">
       <p class="mb-16 text-center text-[20px] leading-8 text-[#6B4F4F]">
         A web developer transitioning from a career in electronics to a career in web and mobile development. Passionate about creating powerful and intuitive applications, I'm looking to leverage my technical skills to support innovative projects.
@@ -95,7 +94,7 @@
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="min-h-screen px-20 pb-[100px]">
+  <section id="projects" class="min-h-screen px-20 pb-[100px] scroll-mt-[120px]">
     <h2 class="mb-5 text-center text-[48px] text-[#4A2C2A] font-bold">Main Project</h2>
     <p class="mx-auto mb-16 max-w-[700px] text-center text-[18px] text-[#6B4F4F]">
       My main project during my internship at Invision Pixels
@@ -111,10 +110,8 @@
           <p class="mb-5 leading-7 text-[#6B4F4F]">
             Development of a complete REST API with Python and Flask, including SQLite database management with SQLAlchemy. Implementation of CRUD operations and integration of responsive web interfaces with Bootstrap.
           </p>
+          <a href="details.html" class="project-link text-[#E8A0A0] font-bold hover:text-[#D88C8C] transition-colors" target="_blank">See project details →</a>
           <div class="mb-5 flex flex-wrap gap-2"></div>
-          <a href="{{ route('details') }}" class="inline-flex items-center gap-2 font-semibold text-[#E8A0A0] transition-colors hover:text-[#D88C8C]">
-            See project details →
-          </a>
         </div>
       </div>
     </div>
