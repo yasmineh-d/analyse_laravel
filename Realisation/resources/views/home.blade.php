@@ -6,7 +6,7 @@
   <!-- Header -->
   <header class="fixed inset-x-0 top-0 z-[1000] flex items-center justify-between px-20 py-5 bg-[rgba(255,245,240,0.95)] backdrop-blur">
     <div class="flex items-center gap-2 text-[22px] font-bold">
-      <span class="text-[28px] text-[#E8A0A0]">✦</span>
+      <span class="material-symbols-outlined text-[28px] text-[#E8A0A0]">star</span>
       <span>Yasmine Haddad</span>
     </div>
 
@@ -33,13 +33,14 @@
     </div>
 
     <div class="relative flex flex-1 items-center justify-center">
-      <!-- Decorative elements -->
+      <!-- Decorative elements of the image -->
       <div class="absolute -top-[30px] -left-[30px]">
-        <span class="absolute text-[30px] text-[#E8A0A0]" style="top:0;left:0;">✦</span>
-        <span class="absolute text-[30px] text-[#E8A0A0]" style="top:40px;left:50px;">+</span>
+        <span class="material-symbols-outlined absolute text-[30px] text-[#E8A0A0]" style="top:0;left:0;">star</span>
+        <span class="material-symbols-outlined absolute text-[30px] text-[#E8A0A0]" style="top:40px;left:50px;">add</span>
       </div>
 
-      <!-- Image blob -->
+
+      <!-- Image blob of the profile -->
       <div class="relative flex h-[360px] w-[320px] items-center justify-center overflow-hidden shadow-[0_20px_60px_rgba(232,160,160,0.3)] bg-gradient-to-br from-[#FFB8C8] to-[#E8A0A0] [border-radius:50%_50%_50%_50%/60%_60%_40%_40%]">
         <img
           src="{{ asset('photo_profile.jpg') }}"
@@ -48,7 +49,7 @@
         />
       </div>
 
-      <!-- Dots -->
+      <!-- Points décoratifs of the image -->
       <div class="absolute right-5 top-1/2 -translate-y-1/2 flex flex-col gap-2.5">
         <div class="h-3 w-3 rounded-full bg-[#E8A0A0] transition-all cursor-pointer"></div>
         <div class="h-3 w-3 rounded-full bg-[#E8A0A0] transition-all cursor-pointer"></div>
@@ -93,7 +94,7 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Projects Section  -->
   <section id="projects" class="min-h-screen px-20 pb-[100px] scroll-mt-[120px]">
     <h2 class="mb-5 text-center text-[48px] text-[#4A2C2A] font-bold">Main Project</h2>
     <p class="mx-auto mb-16 max-w-[700px] text-center text-[18px] text-[#6B4F4F]">
